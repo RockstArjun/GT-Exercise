@@ -1,4 +1,5 @@
 import React from "react";
+import storybookworkflow01 from "../videos/storybook-workflow-01.mp4";
 
 function Hero2() {
   return (
@@ -16,7 +17,17 @@ function Hero2() {
           <div
             motio="padding-bottom: calc(100% * 0.75)"
             class="e1rcwf4f1 chr-i1dq3v e1t9uq0a0"
-          ></div>
+          >
+            <video
+              autoplay=""
+              loop=""
+              playsinline=""
+              alt="Storybook build workflow video"
+              class="chr-ducv57 e99hg4c0"
+            >
+              <source src={storybookworkflow01} type="video/mp4" />
+            </video>
+          </div>
         </div>
       </div>
       <div class="chr-1vlw1q7 e1mt1zi0">
